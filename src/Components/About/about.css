@@ -1,0 +1,71 @@
+.Ncode__about-container{
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:azure;
+    gap:35px;
+}
+.Ncode__about-container-heading h1{
+    font-size: 4rem;
+    font-family: var(--font-family);
+    padding:2vh 0px;
+}
+.Ncode__about-text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    font-size: 1.4rem;
+    margin: auto;
+    font-weight: 200;
+    word-spacing: 5px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.Ncode__about-container button{
+    background-color: var(--heading);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(245, 244, 247, 0.25) 0 1px 1px inset;
+    color: #fff;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 1.4rem;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+    width: 12vw;
+}
+
+/* ===================== Responsive website ========================== */
+@media screen and (max-width: 1450px) {
+    .Ncode__about-container-heading h1{
+        font-size: 3rem;
+        padding:1.5vh 0px;
+    }
+    .Ncode__about-text p{
+        font-size: 1.2rem;
+    }
+    .Ncode__about-container button{
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 520px)
+{
+    .Ncode__about-container-heading h1{
+        font-size: 2rem;
+        padding:1vh 0px;
+    }
+    .Ncode__about-text p{
+        width: 70%;
+    }
+    .Ncode__about-container button{
+        width: 70%;
+    }
+}

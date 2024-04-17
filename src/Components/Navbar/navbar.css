@@ -1,0 +1,86 @@
+.Ncode__navbar-container{
+    padding: 2rem 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Ncode__navabar-logo{
+    padding: 5px;
+    cursor: pointer;
+    color:var(--heading);
+    font-size: 3.5vw;
+    font-family: var(--font-family);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.Ncode__navabar-logo span{
+    color:var(--text);
+    font-size: 4vw;
+}
+.Ncode__navabr-menulink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    text-align: end;
+    background: var(--box-color);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    margin-top: 1rem;
+    min-width: 310px;
+    min-height: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+.Ncode__navabar-menulink-btn {
+  background-color: var(--heading);
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size:1.4rem;
+  font-weight: 600;
+  height: 60px;
+  line-height: 60px;
+  margin-left: -4px;
+  text-align: center;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  touch-action: manipulation;
+  width: 12vw;
+}
+
+.Ncode__navabar-menulink-btn:hover {
+  opacity: .8;
+}
+
+/* ============================================Responsive Design ====================================  */
+@media screen and (max-width: 1000px) {
+  .Ncode__navabar-menulink-btn {
+    font-size: 18px;
+    height: 55px;
+    width: 120px;
+  }
+  .Ncode__navabar-logo{
+    font-size: 6vw;
+  }
+  .Ncode__navabar-logo span{
+    font-size: 7vw;
+  }
+}
+@media screen and (max-width: 770px){
+  .Ncode__navabar-menulink-btn {
+    width: 80px;
+    font-size: 14px;
+    
+  }
+  .Ncode__navbar-container{
+    justify-content: space-between;
+    padding: 2vh 3vw;
+  }
+}
