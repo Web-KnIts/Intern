@@ -22,8 +22,8 @@ function Blog() {
       <div className="Ncode__blog-container-section__blogImg">
         <div className="Ncode__blog-conatiner-section-card">
           <div className="fade-effect"></div>
-          {/* <h3>Metaverse & Games</h3>
-          <button>Read More</button> */}
+          <h3>Metaverse & Games</h3>
+          <button>Read More</button>
         </div>
         <div className="Ncode__blog-conatiner-section-card">
           <div className="fade-effect"></div>

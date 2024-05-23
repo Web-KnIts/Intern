@@ -11,9 +11,9 @@ function Home() {
   return (
     <div>
         <Navbar/>
-        {/* <Hero/>
+        <Hero/>
         <Whatweoffer/>
-        <About/> */}
+        <About/>
         <Blog/>
         <OurWork/>
         <Footer/>
